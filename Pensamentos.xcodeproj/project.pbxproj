@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		5417BCE32394429E00332C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417BCE22394429E00332C69 /* AppDelegate.swift */; };
 		5417BCE52394429E00332C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417BCE42394429E00332C69 /* SceneDelegate.swift */; };
-		5417BCE72394429E00332C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417BCE62394429E00332C69 /* ViewController.swift */; };
 		5417BCEA2394429E00332C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5417BCE82394429E00332C69 /* Main.storyboard */; };
 		5417BCED2394429E00332C69 /* Pensamentos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5417BCEB2394429E00332C69 /* Pensamentos.xcdatamodeld */; };
 		5417BCEF239442A100332C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5417BCEE239442A100332C69 /* Assets.xcassets */; };
 		5417BCF2239442A100332C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5417BCF0239442A100332C69 /* LaunchScreen.storyboard */; };
+		5417BCFA239443BA00332C69 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5417BCF9239443BA00332C69 /* quotes.json */; };
+		5417BCFE2394574D00332C69 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417BCFD2394574D00332C69 /* QuotesViewController.swift */; };
+		5417BD00239457C200332C69 /* SeetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417BCFF239457C200332C69 /* SeetingsViewController.swift */; };
+		5417BD0423945D4900332C69 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417BD0323945D4900332C69 /* Quote.swift */; };
+		5417BD0723945DDB00332C69 /* QuoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417BD0623945DDB00332C69 /* QuoteManager.swift */; };
+		5417BD0923945E3900332C69 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417BD0823945E3900332C69 /* Configuration.swift */; };
+		5417BD0C239466BA00332C69 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 5417BCFB239443D500332C69 /* Savoye LET.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5417BCDF2394429E00332C69 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5417BCE22394429E00332C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5417BCE42394429E00332C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5417BCE62394429E00332C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5417BCE92394429E00332C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5417BCEC2394429E00332C69 /* Pensamentos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pensamentos.xcdatamodel; sourceTree = "<group>"; };
 		5417BCEE239442A100332C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5417BCF1239442A100332C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5417BCF3239442A100332C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5417BCF9239443BA00332C69 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		5417BCFB239443D500332C69 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
+		5417BCFD2394574D00332C69 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		5417BCFF239457C200332C69 /* SeetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeetingsViewController.swift; sourceTree = "<group>"; };
+		5417BD0323945D4900332C69 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		5417BD0623945DDB00332C69 /* QuoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteManager.swift; sourceTree = "<group>"; };
+		5417BD0823945E3900332C69 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +72,52 @@
 			children = (
 				5417BCE22394429E00332C69 /* AppDelegate.swift */,
 				5417BCE42394429E00332C69 /* SceneDelegate.swift */,
-				5417BCE62394429E00332C69 /* ViewController.swift */,
-				5417BCE82394429E00332C69 /* Main.storyboard */,
+				5417BCFC2394440700332C69 /* Files */,
+				5417BD012394580200332C69 /* Controller */,
 				5417BCEE239442A100332C69 /* Assets.xcassets */,
-				5417BCF0239442A100332C69 /* LaunchScreen.storyboard */,
+				5417BD022394584600332C69 /* Views */,
 				5417BCF3239442A100332C69 /* Info.plist */,
+				5417BD0523945D8000332C69 /* Models */,
 				5417BCEB2394429E00332C69 /* Pensamentos.xcdatamodeld */,
 			);
 			path = Pensamentos;
+			sourceTree = "<group>";
+		};
+		5417BCFC2394440700332C69 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				5417BCFB239443D500332C69 /* Savoye LET.ttc */,
+				5417BCF9239443BA00332C69 /* quotes.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		5417BD012394580200332C69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5417BCFF239457C200332C69 /* SeetingsViewController.swift */,
+				5417BCFD2394574D00332C69 /* QuotesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5417BD022394584600332C69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5417BCE82394429E00332C69 /* Main.storyboard */,
+				5417BCF0239442A100332C69 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5417BD0523945D8000332C69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5417BD0323945D4900332C69 /* Quote.swift */,
+				5417BD0623945DDB00332C69 /* QuoteManager.swift */,
+				5417BD0823945E3900332C69 /* Configuration.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +178,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5417BCFA239443BA00332C69 /* quotes.json in Resources */,
 				5417BCF2239442A100332C69 /* LaunchScreen.storyboard in Resources */,
 				5417BCEF239442A100332C69 /* Assets.xcassets in Resources */,
+				5417BD0C239466BA00332C69 /* Savoye LET.ttc in Resources */,
 				5417BCEA2394429E00332C69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5417BCE72394429E00332C69 /* ViewController.swift in Sources */,
 				5417BCED2394429E00332C69 /* Pensamentos.xcdatamodeld in Sources */,
+				5417BCFE2394574D00332C69 /* QuotesViewController.swift in Sources */,
 				5417BCE32394429E00332C69 /* AppDelegate.swift in Sources */,
+				5417BD0723945DDB00332C69 /* QuoteManager.swift in Sources */,
 				5417BCE52394429E00332C69 /* SceneDelegate.swift in Sources */,
+				5417BD0423945D4900332C69 /* Quote.swift in Sources */,
+				5417BD0923945E3900332C69 /* Configuration.swift in Sources */,
+				5417BD00239457C200332C69 /* SeetingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
